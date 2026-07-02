@@ -215,4 +215,18 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/secrets.toml# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ArcGIS lock files and temporary folders
+*.lock
+.gdb/
+*.esriarchive
+
+# QGIS temporary files and local overrides
+*.qgs~
+*.qgz~
+.qgis3/
+
